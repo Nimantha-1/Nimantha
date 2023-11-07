@@ -1,0 +1,64 @@
+/* src/components/Community.css */
+.community-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .post-form {
+    margin-bottom: 20px;
+    input[type="text"] {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  }
+  
+  .posts {
+    .post {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 20px;
+      p {
+        margin: 0;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+      }
+      .reply-form {
+        input[type="text"] {
+          width: 100%;
+          margin-top: 10px;
+          padding: 10px;
+        }
+        button {
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          cursor: pointer;
+        }
+      }
+      .replies {
+        margin-top: 10px;
+        .reply {
+          border: 1px solid #eee;
+          padding: 10px;
+          margin-top: 10px;
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  

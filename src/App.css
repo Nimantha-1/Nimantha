@@ -1,0 +1,112 @@
+.blue {
+  background-color: rgb(1, 1, 27);
+  height: 25vh; /* 25% of the viewport height */
+}
+
+.lightblue {
+  background-color: rgb(255, 255, 255);
+  height: 70vh; /* 75% of the viewport height */
+}
+
+.formWrapper {
+  background-color: rgba(226, 223, 223, 0.4);
+  border-radius: 1em;
+  padding: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 18vh;
+  left: 50%;
+  transform: translateX(-50%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.footer{
+  height: 5vh;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.9);
+}
+
+
+.title{
+  color: aliceblue;
+  margin-bottom: 1em;
+}
+
+.button{
+  background-color: rgb(6, 6, 83);
+}
+
+.drawer{
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(6, 6, 83);
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  width: 20vw;
+  height: 100vh;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.6);
+  overflow-y: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.drawer::-webkit-scrollbar {
+  display: none;
+}
+.dbtn{
+  background-color: rgb(6, 6, 83);
+  border: 0px;
+  border-radius: 0px;
+}
+
+.profile{
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+
+@media (min-width: 769px) {
+  .formWrapper {
+    width: 500px; /* For larger screens, keep the .formWrapper narrower */
+  }
+}
+
+/* Apply styles to the .App class */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: aliceblue;
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* Style textarea elements */
+textarea {
+  width: 100%;
+  height: 150px; /* Increase the height for better readability */
+  margin-bottom: 20px; /* Increase the margin for better spacing */
+  border: 2px solid #ccc; /* Add a border for a visual separation */
+  padding: 10px; /* Add padding for better text alignment */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Style images within the .App class */
+.App img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Ensure images don't have extra spacing below */
+  margin: 0 auto; /* Center-align images within the .App container */
+}
+
+/* Style elements with the .reply class */
+.reply {
+  margin-left: 0; /* Remove left margin to align with other content */
+  background-color: #f0f0f0;
+  padding: 10px; /* Increase padding for better readability */
+  border-radius: 5px; /* Add rounded corners for a card-like appearance */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  margin-bottom: 20px; /* Add margin to separate replies */
+}
