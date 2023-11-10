@@ -42,7 +42,7 @@
         }
         button {
           background-color: #007bff;
-          color: #fff;
+          color: #ffffff84;
           border: none;
           padding: 10px 20px;
           cursor: pointer;
@@ -51,7 +51,7 @@
       .replies {
         margin-top: 10px;
         .reply {
-          border: 1px solid #eee;
+          border: 1px solid #eeeeee54;
           padding: 10px;
           margin-top: 10px;
           p {
